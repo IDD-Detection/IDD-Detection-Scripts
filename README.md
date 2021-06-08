@@ -13,13 +13,15 @@ This can also be verified if you visit the Images Folder and notice the imagenam
 Therefore, in xml file also the imagename should end with 'r'. However, if observed carefully, you will find out that none of the xml files contain imagename with 'r'. Hence, if you are extracting images just based on imagename, you will get incorrect results.
 
 Hence, in order to resolve this, you can use the xml filename directly for extracting the images. 
-Kindly refer to the script 'xml-images-selector.py'.
+
+Kindly refer to the script : 
+[xml-images-selector.py](https://github.com/IDD-Detection/IDD-Detection-Scripts/blob/main/xml-images-selector.py)
 
 ### Utility Scripts :
 
-1) Selection of only those xml files which contain a specific class : 
-2) Deletion of class tags from xml file which you may not require for your project :
-3) Selection of class tags based on size of bounding boxes : 
-4. Deletion of bounding boxes of a particular class based on size : 
+1) Selection of only those xml files which contain a specific class : [xml-class-selector.py](https://github.com/IDD-Detection/IDD-Detection-Scripts/blob/main/xml-class-selector.py) 
+2) Deletion of class tags from xml file which you may not require for your project : [xml-tag-remover.py](https://github.com/IDD-Detection/IDD-Detection-Scripts/blob/main/xml-tag-remover.py)
+3) Selection of class tags based on size of bounding boxes : [xml-bb-checker.py](https://github.com/IDD-Detection/IDD-Detection-Scripts/blob/main/xml-bb-checker.py)
+4) Deletion of bounding boxes of a particular class based on size : [xml-bb-checker-remover.py](https://github.com/IDD-Detection/IDD-Detection-Scripts/blob/main/xml-bb-checker-remover.py)
 
 
