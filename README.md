@@ -19,7 +19,7 @@ Kindly refer to the script 'xml-images-selector.py'.
 
 1) Selection of only those xml files which contain a specific class : 
 2) Deletion of class tags from xml file which you may not require for your project :
-3) Deletion of class tags based on size of bounding boxes : 
-
+3) Selection of class tags based on size of bounding boxes : 
+4. Deletion of bounding boxes of a particular class based on size : 
 
 
